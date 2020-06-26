@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Application loaded]]>
+    </line>
+    <line>
+      <![CDATA[clicked onclickhere link]]>
+    </line>
+    <line>
+      <![CDATA[Entered text "test@demo.com"In theusername textbox]]>
+    </line>
+    <line>
+      <![CDATA[Entered text "Test@123"In thepassword textbox]]>
+    </line>
+    <line>
+      <![CDATA[clicked onLogin button]]>
+    </line>
+    <line>
+      <![CDATA[clicked onpatients link]]>
+    </line>
+    <line>
+      <![CDATA[clicked onadd patient link]]>
+    </line>
+    <line>
+      <![CDATA[Entered text "shiva"In thepatient name textfield]]>
+    </line>
+    <line>
+      <![CDATA[Entered text ""In thepatient contact]]>
+    </line>
+    <line>
+      <![CDATA[Entered text "shiva@gmail.com"In thepatient mail]]>
+    </line>
+    <line>
+      <![CDATA[clicked ongender button]]>
+    </line>
+    <line>
+      <![CDATA[Entered text "malleshwaram"In thepatient address]]>
+    </line>
+    <line>
+      <![CDATA[Entered text ""In thepatient age]]>
+    </line>
+    <line>
+      <![CDATA[Entered text "history"In thepatient med history]]>
+    </line>
+    <line>
+      <![CDATA[clicked onadd button]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26600" started-at="2020-06-26T09:28:26 IST" finished-at="2020-06-26T09:28:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26600" started-at="2020-06-26T09:28:26 IST" finished-at="2020-06-26T09:28:53 IST">
+      <class name="tyssframework.scripts.Testscriptone">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tyssframework.scripts.Testscriptone@394e1a0f]" name="setup" is-config="true" duration-ms="6618" started-at="2020-06-26T09:28:27 IST" finished-at="2020-06-26T09:28:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@324c64cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Application loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc_01()[pri:0, instance:tyssframework.scripts.Testscriptone@394e1a0f]" name="tc_01" duration-ms="14691" started-at="2020-06-26T09:28:33 IST" finished-at="2020-06-26T09:28:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked onclickhere link]]>
+            </line>
+            <line>
+              <![CDATA[Entered text "test@demo.com"In theusername textbox]]>
+            </line>
+            <line>
+              <![CDATA[Entered text "Test@123"In thepassword textbox]]>
+            </line>
+            <line>
+              <![CDATA[clicked onLogin button]]>
+            </line>
+            <line>
+              <![CDATA[clicked onpatients link]]>
+            </line>
+            <line>
+              <![CDATA[clicked onadd patient link]]>
+            </line>
+            <line>
+              <![CDATA[Entered text "shiva"In thepatient name textfield]]>
+            </line>
+            <line>
+              <![CDATA[Entered text ""In thepatient contact]]>
+            </line>
+            <line>
+              <![CDATA[Entered text "shiva@gmail.com"In thepatient mail]]>
+            </line>
+            <line>
+              <![CDATA[clicked ongender button]]>
+            </line>
+            <line>
+              <![CDATA[Entered text "malleshwaram"In thepatient address]]>
+            </line>
+            <line>
+              <![CDATA[Entered text ""In thepatient age]]>
+            </line>
+            <line>
+              <![CDATA[Entered text "history"In thepatient med history]]>
+            </line>
+            <line>
+              <![CDATA[clicked onadd button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_01 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tyssframework.scripts.Testscriptone@394e1a0f]" name="teardown" is-config="true" duration-ms="5188" started-at="2020-06-26T09:28:48 IST" finished-at="2020-06-26T09:28:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tyssframework.scripts.Testscriptone -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

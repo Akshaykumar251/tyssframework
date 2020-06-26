@@ -1,0 +1,4 @@
+browserkey=webdriver.chrome.driver
+browservalue=./Softwares/chromedriver.exe
+url=http://localhost:8080/hospital/
+browsername=chrome
